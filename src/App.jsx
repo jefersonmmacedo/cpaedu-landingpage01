@@ -1,9 +1,16 @@
+import { Courses } from './components/Courses/Courses';
+import { Header } from './components/Header/Header';
+import { Company } from './components/Company/Company';
 import './Global.css';
+import { Depoiment } from './components/Depoiment/Depoiment';
 
 function App() {
   return (
     <div >
-     <h1>CPA Educação</h1>
+    <Header />
+    <Courses />
+    <Company />
+    <Depoiment />
     </div>
   );
 }

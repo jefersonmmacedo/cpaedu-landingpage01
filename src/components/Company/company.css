@@ -1,0 +1,42 @@
+.company {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    width: 100%;
+    height: 500px;
+    border-radius: 0 0 0 100px;
+    background-image: linear-gradient(90deg,coral, rgb(153, 44, 5));
+}
+
+.company .image {
+    width: 300px;
+    border-radius: 0 100px 0 100px;
+    height: 100%;
+    object-fit: cover;
+}
+.company .image img {
+    width: 300px;
+    border-radius: 0 100px 0 100px;
+    height: 100%;
+    object-fit: cover;
+}
+
+.company .text {
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    padding:0 50px;
+}
+
+.company .text h1 {
+    font-weight: 900;
+    margin-bottom: 20px;
+}
+.company .text p {
+    font-weight: 700;
+}

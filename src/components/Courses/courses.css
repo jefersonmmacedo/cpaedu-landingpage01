@@ -1,0 +1,71 @@
+.couses {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 40px 0;
+}
+
+.couses .title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+    margin-bottom: 30px;
+}
+
+
+.couses h1 {
+    text-align: center;
+}
+
+.couses p {
+    text-align: center;
+}
+
+.couses .itens {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.couses .itens .course{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    width: 250px;
+    margin: 10px 20px;
+    background-color: #512A79;
+    border-radius: 6px;
+    padding: 20px;
+    color: #fff;
+}
+
+.couses .itens .course img {
+    width: 70px;
+    margin-bottom: 20px;
+}
+
+.couses .itens .course h3 {
+    font-weight: 700;
+    color: #fff;
+    margin-bottom: 10px;
+}
+.couses .itens .course p {
+    text-align: left;
+}
+
+.couses .itens .course a {
+    margin-top: 20px;
+    text-decoration: none;
+    border-radius: 20px;
+    border: 1px solid #fff;
+    color: #fff;
+    padding: 5px 20px;
+}
