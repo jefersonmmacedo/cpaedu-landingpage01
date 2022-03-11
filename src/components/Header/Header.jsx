@@ -1,6 +1,6 @@
-import './header.css'
-import logo from '../../assets/image/logo-bc.png'
-import Aluno from '../../assets/image/Aluno.png'
+import './header.css';
+import logo from '../../assets/image/logo-bc.png';
+import Aluno from '../../assets/image/Aluno.png';
 
 function Header() {
     return (
