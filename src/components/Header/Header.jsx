@@ -10,7 +10,7 @@ function Header() {
                 <h2>Formando Profissionais desde 2012</h2>
                     <h4>Com mais de 3.000 alunos formados</h4>
                 <div className="buttons">
-                    <a className='btn-whatsapp' href="#" target="_blank">Fale conosco</a>
+                    <a className='btn-whatsapp' href="https://wa.me/5522999942800?text=Olá. Gostaria de saber mais detalhes sobre seus cursos e formações" target="_blank">Fale conosco</a>
                     <a className='btn-loja' href="https://ead.cpaedu.com.br/loja_virtual/index.php" target="_blank">Loja virtual</a>
                 </div>
                 </div>
