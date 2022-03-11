@@ -32,6 +32,7 @@
     flex-direction: row;
     width: 50%;
     margin-top: 20px;
+    text-decoration: none;
 }
 
 .header .content .buttons .btn-whatsapp {
@@ -43,6 +44,7 @@
     border: none;
     border-radius: 6px;
     margin: 0 5px;
+    text-decoration: none;
 }
 .header .content .buttons .btn-loja {
     background-color: rgb(100, 0, 194);
@@ -53,6 +55,16 @@
     border: none;
     border-radius: 6px;
     margin: 0 5px;
+    text-decoration: none;
+}
+
+
+.header .content .buttons .btn-whatsapp a{
+    text-decoration: none;
+}
+
+.header .content .buttons .btn-loja a{
+    text-decoration: none;
 }
 
 .header .content img {
@@ -74,6 +86,19 @@
     margin-top: 40px;
     object-fit: cover;
 }
+
+@media(max-width: 900px) {
+    .header .content .buttons {
+        flex-direction: column;
+    }
+
+    .header .content .buttons .btn-whatsapp {
+        margin: 5px;
+    }
+
+    .header .content .buttons .btn-loja {
+        margin: 5px;
+    }
 
 @media(max-width: 600px) {
 
@@ -111,4 +136,11 @@
     .header .content .buttons .btn-loja a{
         text-decoration: none;
     }
+
+        .header{
+            border-radius: 0 0 100px 0;
+        }
+    }
 }
+
+

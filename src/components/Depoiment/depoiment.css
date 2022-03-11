@@ -4,11 +4,10 @@
     justify-content: center;
     flex-direction: column;
     width: 100%;
-    height: 200px;
     text-align: center;
     padding: 0 100px;
     color: #451A70;
-    margin: 50px 0;
+    margin: 100px 0;
 }
 
 .depoiment h3 {
@@ -17,5 +16,12 @@
 .depoiment h4 {
     margin-bottom: 5px;
     font-weight: 900;
+}
+
+@media(max-width: 600px) {
+    .depoiment {
+        margin: 50px 0;
+        padding: 0 30px;
+    }
 }
 
