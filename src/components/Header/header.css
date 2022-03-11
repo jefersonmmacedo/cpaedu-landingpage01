@@ -9,8 +9,9 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    height: 400px;
     border-radius: 0 0 150px 0;
+    text-align: center;
+    object-fit: cover;
 }
 
 .header .content {
@@ -22,6 +23,7 @@
     height: 100%;
     color: #fff;
     flex-wrap: wrap;
+    padding: 0 20px;
 }
 .header .content .buttons {
     display: flex;
@@ -65,9 +67,38 @@
     width: 50%;
     height: 100%;
     object-fit: cover;
+    padding: 0 20px;
 }
 
 .header .image img {
     margin-top: 40px;
     object-fit: cover;
+}
+
+@media(max-width: 600px) {
+
+    .header .content {
+        width: 90%;
+        padding: 0 10px;
+    }
+    
+    .header .image {
+        display: none;
+    }
+
+    .header .content .buttons {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        width: 70%;
+        margin-top: 20px;
+    }
+
+    .header .content .buttons .btn-whatsapp {
+        margin: 5px;
+    }
+    .header .content .buttons .btn-loja {
+        margin: 5px;
+    }
 }

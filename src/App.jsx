@@ -3,6 +3,7 @@ import { Header } from './components/Header/Header';
 import { Company } from './components/Company/Company';
 import './Global.css';
 import { Depoiment } from './components/Depoiment/Depoiment';
+import { Footer } from './components/Footer/Footer';
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
     <Courses />
     <Company />
     <Depoiment />
+    <Footer />
     </div>
   );
 }

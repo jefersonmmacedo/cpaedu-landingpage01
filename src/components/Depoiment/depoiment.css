@@ -7,36 +7,15 @@
     height: 200px;
     text-align: center;
     padding: 0 100px;
+    color: #451A70;
+    margin: 50px 0;
 }
 
-.depoiment .image {
-    width: 300px;
-    border-radius: 0 100px 0 100px;
-    height: 100%;
-    object-fit: cover;
-}
-.depoiment .image img {
-    width: 300px;
-    border-radius: 0 100px 0 100px;
-    height: 100%;
-    object-fit: cover;
-}
-
-.depoiment .text {
-    color: #fff;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    width: 100%;
-    height: 100%;
-    padding:0 50px;
-}
-
-.depoiment .text h1 {
-    font-weight: 900;
+.depoiment h3 {
     margin-bottom: 20px;
 }
-.depoiment .text p {
-    font-weight: 700;
+.depoiment h4 {
+    margin-bottom: 5px;
+    font-weight: 900;
 }
+
