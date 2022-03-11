@@ -39,15 +39,15 @@ function ContactWhatsapp() {
         <form action="" onSubmit={handleMessage}>
             <input type="text" placeholder="Nome" value={name} onChange={(e) => setName(e.target.value)} required/>
             <input type="email" placeholder="Email" value={email} onChange={(e) =>  setEmail(e.target.value)} required/>
-            <input type="text" placeholder="telefone" value={phone} onChange={(e) =>  setPhone(e.target.value)} required/>
+            <input type="text" placeholder="Telefone" value={phone} onChange={(e) =>  setPhone(e.target.value)} required/>
             <select value={courses} onChange={handleCourses} required>
                 <option value="">Qual curso deseja?</option>
                 <option value="Música">Música</option>
-                <option value="Mercado de trabalho">Mercado de trabalho</option>
+                <option value="Cursos Profissionalizantes">Cursos Profissionalizantes</option>
                 <option value="Ensino Médio - EJA EAD">Ensino Médio - EJA EAD</option>
-                <option value="Técnicos EAD">Técnicos EAD</option>
+                <option value="Cursos Técnicos EAD">Cursos Técnicos EAD</option>
                 <option value="Graduação EAD">Graduação EAD</option>
-                <option value="Pós Graduação EAD">Pós Graduação EAD</option>
+                <option value="Pós-graduação EAD">Pós-graduação EAD</option>
                 <option value="2º Curso Superior EAD">2º Curso Superior EAD</option>
                 <option value="Outros">Outros</option>
             </select>

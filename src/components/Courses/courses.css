@@ -34,7 +34,8 @@
     flex-wrap: wrap;
 }
 
-.couses .itens .course{
+
+.couses .itens .course1{
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -42,20 +43,60 @@
     width: 250px;
     height: 310px;
     margin: 10px 20px;
-    background-color: #451A70;
+    background-color: #00AFAB;
+    border-radius: 20px;
+    padding: 20px;
+    color: #fff;
+}
+.couses .itens .course2{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    width: 250px;
+    height: 310px;
+    margin: 10px 20px;
+    background-color: #AD98D2;
+    border-radius: 20px;
+    padding: 20px;
+    color: #fff;
+}
+.couses .itens .course3{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    width: 250px;
+    height: 310px;
+    margin: 10px 20px;
+    background-color: #FCC301;
     border-radius: 20px;
     padding: 20px;
     color: #fff;
 }
 
-.couses .itens .course .text{
+.couses .itens .course4{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    width: 250px;
+    height: 310px;
+    margin: 10px 20px;
+    background-color: #F05B68;
+    border-radius: 20px;
+    padding: 20px;
+    color: #fff;
+}
+
+.couses .itens .course1 .text{
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     width: 100%;
 }
-.couses .itens .course .text .image {
+.couses .itens .course1 .text .image {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -63,22 +104,135 @@
     width: 125px;
     height: 75px;
 }
-.couses .itens .course .text img {
+.couses .itens .course1 .text img {
     width: 70px;
 }
 
-
-
-.couses .itens .course .text h3 {
+.couses .itens .course1 .text h3 {
     font-weight: 700;
     color: #fff;
     margin-bottom: 10px;
 }
-.couses .itens .course .text p {
+.couses .itens .course1 .text p {
     text-align: left;
 }
 
-.couses .itens .course a {
+.couses .itens .course1 a {
+    margin-top: 20px;
+    text-decoration: none;
+    border-radius: 20px;
+    border: 1px solid #fff;
+    color: #fff;
+    padding: 5px 20px;
+}
+
+
+.couses .itens .course2 .text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+.couses .itens .course2 .text .image {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    width: 125px;
+    height: 75px;
+}
+.couses .itens .course2 .text img {
+    width: 70px;
+}
+
+.couses .itens .course2 .text h3 {
+    font-weight: 700;
+    color: #fff;
+    margin-bottom: 10px;
+}
+.couses .itens .course2 .text p {
+    text-align: left;
+}
+
+.couses .itens .course2 a {
+    margin-top: 20px;
+    text-decoration: none;
+    border-radius: 20px;
+    border: 1px solid #fff;
+    color: #fff;
+    padding: 5px 20px;
+}
+
+
+
+.couses .itens .course3 .text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+.couses .itens .course3 .text .image {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    width: 125px;
+    height: 75px;
+}
+.couses .itens .course3 .text img {
+    width: 70px;
+}
+
+.couses .itens .course3 .text h3 {
+    font-weight: 700;
+    color: #fff;
+    margin-bottom: 10px;
+}
+.couses .itens .course3 .text p {
+    text-align: left;
+}
+
+.couses .itens .course3 a {
+    margin-top: 20px;
+    text-decoration: none;
+    border-radius: 20px;
+    border: 1px solid #fff;
+    color: #fff;
+    padding: 5px 20px;
+}
+
+
+.couses .itens .course4 .text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+.couses .itens .course4 .text .image {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    width: 125px;
+    height: 75px;
+}
+.couses .itens .course4 .text img {
+    width: 70px;
+}
+
+.couses .itens .course4 .text h3 {
+    font-weight: 700;
+    color: #fff;
+    margin-bottom: 10px;
+}
+.couses .itens .course4 .text p {
+    text-align: left;
+}
+
+.couses .itens .course4 a {
     margin-top: 20px;
     text-decoration: none;
     border-radius: 20px;
