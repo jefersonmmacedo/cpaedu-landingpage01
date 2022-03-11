@@ -45,6 +45,7 @@
     font-weight: 700;
 }
 
+
 @media(max-width: 900px) {
     .company .image {
         display: none;

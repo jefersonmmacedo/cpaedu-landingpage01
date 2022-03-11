@@ -1,5 +1,5 @@
 .whatsapp {
-    width: 50%;
+    width: 500px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -46,4 +46,9 @@ margin-bottom: 10px;
     background-color: blueviolet;
     padding: 10px 20px;
     margin: 20px 0;
+    cursor: pointer;
+}
+.whatsapp form button:hover {
+
+    background-color: #b36cfa;;
 }

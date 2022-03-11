@@ -3,7 +3,7 @@
     align-items: center;
     flex-direction: column;
     justify-content: center;
-    width: 50%;
+    width: 500px;
     color: #fff;
     padding: 10px 20px;
     text-align: left;
@@ -39,3 +39,8 @@
      border-radius: 4px;
      margin: 5px;
  }
+
+ .contact .icons p:hover {
+    background-color: #b36cfa;
+    color: #fff;
+}

@@ -93,12 +93,22 @@
         flex-direction: column;
         width: 70%;
         margin-top: 20px;
+        text-decoration: none;
+    }
+    .header .content .buttons a {
+        text-decoration: none;
     }
 
     .header .content .buttons .btn-whatsapp {
         margin: 5px;
     }
+    .header .content .buttons .btn-whatsapp a{
+        text-decoration: none;
+    }
     .header .content .buttons .btn-loja {
         margin: 5px;
+    }
+    .header .content .buttons .btn-loja a{
+        text-decoration: none;
     }
 }
