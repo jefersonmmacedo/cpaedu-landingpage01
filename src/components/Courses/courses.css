@@ -41,7 +41,7 @@
     align-items: flex-start;
     justify-content: space-between;
     width: 250px;
-    height: 310px;
+    height: 320px;
     margin: 10px 20px;
     background-color: #00AFAB;
     border-radius: 20px;
@@ -54,7 +54,7 @@
     align-items: flex-start;
     justify-content: space-between;
     width: 250px;
-    height: 310px;
+    height: 320px;
     margin: 10px 20px;
     background-color: #AD98D2;
     border-radius: 20px;
@@ -67,7 +67,7 @@
     align-items: flex-start;
     justify-content: space-between;
     width: 250px;
-    height: 310px;
+    height: 320px;
     margin: 10px 20px;
     background-color: #FCC301;
     border-radius: 20px;
@@ -81,7 +81,7 @@
     align-items: flex-start;
     justify-content: space-between;
     width: 250px;
-    height: 310px;
+    height: 320px;
     margin: 10px 20px;
     background-color: #F05B68;
     border-radius: 20px;
@@ -102,10 +102,10 @@
     align-items: center;
     justify-content: flex-start;
     width: 125px;
-    height: 75px;
+    height: 65px;
 }
 .couses .itens .course1 .text img {
-    width: 70px;
+    width: 60px;
 }
 
 .couses .itens .course1 .text h3 {
@@ -140,10 +140,10 @@
     align-items: center;
     justify-content: flex-start;
     width: 125px;
-    height: 75px;
+    height: 65px;
 }
 .couses .itens .course2 .text img {
-    width: 70px;
+    width: 60px;
 }
 
 .couses .itens .course2 .text h3 {
@@ -179,10 +179,10 @@
     align-items: center;
     justify-content: flex-start;
     width: 125px;
-    height: 75px;
+    height: 65px;
 }
 .couses .itens .course3 .text img {
-    width: 70px;
+    width: 60px;
 }
 
 .couses .itens .course3 .text h3 {
@@ -217,10 +217,10 @@
     align-items: center;
     justify-content: flex-start;
     width: 125px;
-    height: 75px;
+    height: 65px;
 }
 .couses .itens .course4 .text img {
-    width: 70px;
+    width: 60px;
 }
 
 .couses .itens .course4 .text h3 {
