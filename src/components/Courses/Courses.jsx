@@ -33,7 +33,7 @@ bolsas com até 100% de desconto</h4>
                             <div className="image">
                         <img src={lousaImg} alt="Mercado de trabalho" />
                                 </div>
-                        <h3>Cursos de aperfeiçoamento profissional</h3>
+                        <h3>Cursos de aperfeiçoamento profissional EAD</h3>
                         <p>Cursos de aperfeiçoamento profissional. Formato tradicional com formação de turmas, teoria e prática com professor e estágio supervisionado. </p>
                             </div>
                         <a href="/sorteio" rel="noreferrer">Participar do sorteio</a>
@@ -44,7 +44,7 @@ bolsas com até 100% de desconto</h4>
                     <img src={tabletImg} alt="" />
                                 </div>
                         <h3>Ensino Médio - EJA EAD</h3>
-                        <p>A Educação de Jovens e Adultos (EJA) é destinada a quem tem 18 anos ou mais e não conseguiu concluir os estudos na idade própria, nos cursos de Ensino Fundamental e Médio.</p>
+                        <p>Ensino Médio - EJA EAD integrado ao Curso de Qualificação Profissional em Assistente Administrativo.</p>
                             </div>
                         <a href="/sorteio" rel="noreferrer">Participar do sorteio</a>
                         </div>

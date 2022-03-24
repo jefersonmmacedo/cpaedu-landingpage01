@@ -23,6 +23,18 @@
     border-radius: 6px;
     margin-bottom: 10px;
 }
+.details .youtube {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    width: 50%;
+    background-color: #9d0000;
+    padding: 10px;
+    border-radius: 6px;
+    margin: 20px 0;
+
+}
 
 
 
@@ -33,7 +45,26 @@
     flex-direction: row;
     color: #fff;
 }
+.details .youtube h3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    color: #fff;
+}
+.details .youtube h3 a {
+    text-decoration: none;
+    color: lightcyan;
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
 .details .sort h4 svg {
+    margin: 0 5px;
+}
+.details .youtube h3 a svg{
     margin: 0 5px;
 }
 

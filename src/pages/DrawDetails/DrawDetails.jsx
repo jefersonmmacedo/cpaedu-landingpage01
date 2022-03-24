@@ -4,7 +4,7 @@ import { Footer } from '../../components/Footer/Footer'
 import './drawDetails.css'
 import { useState } from 'react'
 import { useParams } from 'react-router-dom'
-import { IoHourglassOutline, IoCheckboxOutline } from 'react-icons/io5'
+import { IoHourglassOutline, IoCheckboxOutline, IoLogoYoutube} from 'react-icons/io5'
 
 function DrawDetails() {
     const {course} = useParams();
@@ -31,7 +31,7 @@ function DrawDetails() {
               
                 <div className="iten">
                 <h3>Cursos de aperfeiçoamento profissional</h3>
-                <h5>Total de 5 sorteios <br /> 1 sorteios de 100% | 1 sorteios de 70% | 3 sorteios de 50%</h5>
+                <h5>Total de 5 bolsas por sorteio <br /> 1 bolsa de 100% | 1 bolsa de 70% | 3 bolsas de 50%</h5>
                <p> Agente de Portaria</p>
                <p> Alfabetização e Letramento</p>
                <p> Atendente de Farmácia</p>
@@ -120,7 +120,7 @@ function DrawDetails() {
                 <div className="block2">
                 <div className="iten">
                <h3>Música</h3> 
-               <h5>Total de 5 sorteios <br />1 sorteios de 100% | 1 sorteios de 70% | 3 sorteios de 50%</h5>
+               <h5>Total de 5 bolsas por sorteio <br />1 bolsa de 100% | 1 bolsa de 70% | 3 bolsas de 50%</h5>
                <p> Bateria</p>
                 <p> Canto</p>
                 <p>Contrabaixo</p>
@@ -129,15 +129,21 @@ function DrawDetails() {
                 </div>
                 <div className="iten">
                 <h3>Ensino Médio - EJA EAD</h3>
-                <h5>Total de 5 sorteios <br /> 1 sorteios de 100% | 1 sorteios de 70% | 3 sorteios de 50%</h5>
+                <h5>Total de 5 bolsas por sorteio <br /> 1 bolsa de 100% | 1 bolsa de 70% | 3 bolsas de 50%</h5>
                 <p>Ensino Médio - EJA integrado ao Curso de Qualificação Profissional em Assistente Administrativo</p> 
                 </div>
                 <div className="iten">
                 <h3>Loja Virtual</h3>
-                <h5>Total de 10 sorteios <br /> 2 sorteios de 100% | 2 sorteios de 70% | 6 sorteios de 50%</h5>
+                <h5>Total de 10 bolsas por sorteio <br /> 2 bolsas de 100% | 2 bolsas de 70% | 6 bolsas de 50%</h5>
                 <p>Todos os cursos da loja virtual</p> 
                 </div>
                 </div>
+            </div>
+
+
+            <div className="youtube">
+           <h3>Acompanhe os sorteios em nosso canal no youtube: </h3>
+           <h3> <a href="https://www.youtube.com/channel/UCqTlej5EZmnmet98RQwYlIw"> ir para youtube <IoLogoYoutube /></a> </h3>
             </div>
 
             </div>

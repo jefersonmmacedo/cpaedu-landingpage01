@@ -27,7 +27,7 @@ function FormSorteio({course}) {
     async function handleMessage(e) {
         e.preventDefault()
         try {
-            const docRef = await addDoc(collection(db, "users"), {
+            const docRef = await addDoc(collection(db, "candidatos"), {
                 name: name,
                 email: email,
                 phone: phone,
@@ -79,10 +79,10 @@ function FormSorteio({course}) {
             <input type="text" placeholder="Bairro" value={district} onChange={(e) =>  setDistrict(e.target.value)} required/>
             <input type="text" placeholder="Cidade" value={city} onChange={(e) =>  setCity(e.target.value)} required/>
             <select value={course} onChange={handleCourses} required>
-                <option value="">Qual curso deseja?</option>
+                <option value="">Qual curso deseja ganhar uma bolsa?</option>
                 <option value="Música">Música</option>
-                <option value="Cursos de aperfeiçoamento profissional">Cursos de aperfeiçoamento profissional</option>
-                <option value="Ensino médio - EJA EAD">Ensino médio - EJA EAD</option>
+                <option value="Cursos de aperfeiçoamento profissional EAD">Cursos de aperfeiçoamento profissional EAD</option>
+                <option value="Ensino médio - EJA EAD com curso de qualificação profissional em assistente administrativo">Ensino médio - EJA EAD com curso de qualificação profissional em assistente administrativo</option>
                 <option value="Cursos da loja virtual">Cursos da loja virtual</option>
             </select>
             <textarea name="" id="" placeholder='Resuma o Projeto AMAIVOS e CPA Educação em uma palavra ou deixe sua mensagem para a direção e nossa equipe' cols="30" rows="5"
