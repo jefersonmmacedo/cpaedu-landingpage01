@@ -7,7 +7,7 @@ function Header() {
     return (
         <div className="header">
             <Aniversary />
-            <div className="block">
+            <div className="blockHeader">
             <div className="content">
                 <h1>Inscreva-se e ganhe prêmios</h1>
                     <h2><i>Sorteio de 100 cursos gratuitos e <br /> bolsas com até 100% de desconto</i></h2>

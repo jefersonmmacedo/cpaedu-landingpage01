@@ -117,60 +117,82 @@
     object-fit: cover;
 }
 
-@media(max-width: 900px) {
-    .aniversary .content .buttons {
-        flex-direction: column;
+@media(max-width: 1024px) {
+    .aniversary .content .text .miniText {
+        position: absolute;
+        margin-top: 150px;
     }
 
-    .aniversary .content .buttons .btn-whatsapp {
-        margin: 5px;
+
+    @media(max-width: 900px) {
+    .aniversary .content .text .textImage img {
+        width: 100px;
+        margin: 50px 10px 0 10px;
     }
 
-    .aniversary .content .buttons .btn-loja {
-        margin: 5px;
-    }
-
-@media(max-width: 600px) {
-
-    .aniversary .content {
-        width: 90%;
-        padding: 0 10px;
-    }
-    
-    .aniversary .image {
-        display: none;
-    }
-
-    .aniversary .content .buttons {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        flex-direction: column;
-        width: 70%;
-        margin-top: 20px;
-        text-decoration: none;
-    }
-    .aniversary .content .buttons a {
-        text-decoration: none;
-    }
-
-    .aniversary .content .buttons .btn-whatsapp {
-        margin: 5px;
-    }
-    .aniversary .content .buttons .btn-whatsapp a{
-        text-decoration: none;
-    }
-    .aniversary .content .buttons .btn-loja {
-        margin: 5px;
-    }
-    .aniversary .content .buttons .btn-loja a{
-        text-decoration: none;
-    }
-
-        .aniversary{
-            border-radius: 0 0 100px 0;
+    @media(max-width: 750px) {
+        .aniversary .content .text .textImage{
+            margin: 30px 0;
         }
+
+        .aniversary .content .text .textImage img {
+            width: 80px;
+            margin: 20px 10px 0 10px;
+        }
+
+        .aniversary .content .text .textImage h1 {
+            font-size: 45px;
+        }
+
+        @media(max-width: 600px) {
+            .aniversary .content .text .textImage {
+               width: 120%;
+            }
+
+            @media(max-width: 510px) {
+                .aniversary .content .text .textImage {
+                   margin-left: -20px;
+                }
+
+                .aniversary .content .text .textImage h1 {
+                    font-size: 36px;
+                }
+
+                .aniversary .content .happy img {
+                    margin-left: -30px;
+                }
+                .aniversary .content .text .miniText {
+                    margin-left: -20px;
+                }
+
+                .aniversary .content .happy img {
+                    width: 300px;
+                }
+
+                
+            @media(max-width: 450px) {
+                .aniversary .content .text .textImage {
+                    width: 150%;
+                    margin-left: -13px;
+                 }
+                .aniversary .content .text .textImage h1 {
+                    font-size: 30px;
+                }
+
+                .aniversary .content .text .miniText h2 {
+                    font-size: 20px;
+                }
+            }
+                
+            }
+            
+        }
+        
+    
     }
-}
+    }
+    }
+
+
 
 
