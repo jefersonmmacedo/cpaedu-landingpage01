@@ -4,6 +4,7 @@ import { Footer } from '../../components/Footer/Footer'
 import './drawDetails.css'
 import { useState } from 'react'
 import { useParams } from 'react-router-dom'
+import { IoHourglassOutline, IoCheckboxOutline } from 'react-icons/io5'
 
 function DrawDetails() {
     const {course} = useParams();
@@ -23,6 +24,9 @@ function DrawDetails() {
             <HeaderDraw />
             <div className="details">
             <h2>Detalhes do sorteio</h2>
+            <div className="sort">
+           <h4> Datas de sorteios: 21/03 <IoCheckboxOutline /> | 28/03 <IoHourglassOutline /> | 04/04 <IoHourglassOutline /> | 11/04 <IoHourglassOutline /></h4>
+            </div>
             <div className="listCourses">
               
                 <div className="iten">

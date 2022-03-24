@@ -12,6 +12,31 @@
     margin: 10px 0;
 }
 
+.details .sort {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    width: 50%;
+    background-color: #371d64;
+    padding: 10px;
+    border-radius: 6px;
+    margin-bottom: 10px;
+}
+
+
+
+.details .sort h4 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    color: #fff;
+}
+.details .sort h4 svg {
+    margin: 0 5px;
+}
+
 .details .listCourses {
     display: flex;
     align-items: flex-start;
@@ -56,6 +81,12 @@
         cursor: pointer;
 }
 
+
+
+@media(max-width: 1020px) {
+.details .sort {
+    width: 70%;
+}
 @media(max-width: 900px) {
     .details .listCourses {
         flex-direction: column;
@@ -64,18 +95,42 @@
         justify-content: center;
     }
 
+    @media(max-width: 830px) {
+        .details .sort {
+            width: 500px;
+        }
+
     @media(max-width: 550px) {
         .details .listCourses .iten {
             width: 400px;
         }
 
+        .details .sort {
+            width: 400px;
+        }
+        .details .sort h4 {
+            font-size: 13px;
+        }
+
+
         @media(max-width: 450px) {
             .details .listCourses .iten {
                 width: 320px;
             }
+            .details .sort {
+                width: 320px;
+                padding: 5px;
+            }
+            .details .sort h4 {
+                font-size: 11px;
+            }
+    
+    
         
         }
     
     }
     
+}
+}
 }
