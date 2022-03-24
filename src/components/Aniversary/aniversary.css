@@ -1,39 +1,28 @@
-.header{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    width: 100%;
-    background-image: url(../../assets/image/background2.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    border-radius: 0 0 150px 0;
-    text-align: center;
-    object-fit: cover;
-}
-
-.header .block {
+.aniversary{
     display: flex;
     align-items: center;
     justify-content: space-around;
-    flex-direction: row;
+    flex-direction: column;
     width: 100%;
-    height: 400px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    object-fit: cover;
+    padding: 20px 20px 0 20px ;
 }
 
-.header .block .content {
+.aniversary .content {
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    width: 50%;
+    width: 80%;
     height: 100%;
     color: #fff;
     flex-wrap: wrap;
-    padding: 20px 20px 0 20px;
 }
-.header .block .content .buttons {
+.aniversary .content .buttons {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -43,8 +32,7 @@
     text-decoration: none;
 }
 
-.header .block .content .buttons .btn-whatsapp {
-    background-color: #F05B68;
+.aniversary .content .buttons .btn-whatsapp {
     color: white;
     padding: 10px 20px;
     font-size: 16px;
@@ -54,7 +42,7 @@
     margin: 0 5px;
     text-decoration: none;
 }
-.header .block .content .buttons .btn-loja {
+.aniversary .content .buttons .btn-loja {
     background-color: rgb(100, 0, 194);
     color: white;
     padding: 10px 20px;
@@ -67,41 +55,53 @@
 }
 
 
-.header .block .content .buttons .btn-whatsapp a{
+.aniversary .content .buttons .btn-whatsapp a{
     text-decoration: none;
 }
 
-.header .block .content .buttons .btn-loja a{
+.aniversary .content .buttons .btn-loja a{
     text-decoration: none;
 }
 
-.header .block .content h1 {
-    margin-bottom: 10px;
-    font-size: 36px;
-}
-.header .block .content h2 {
+.aniversary .content img {
+    width: 250px;
     margin-bottom: 10px;
 }
-
-.header .block .content .dates {
-    background-color:#00AFAB ;
+.aniversary .content .happy img {
+    margin-top: 10px;
+    width: 400px;
+}
+.aniversary .content .text {
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    width: 250px;
-    border-radius: 10px;
-    padding: 5px;
+    width: 90%;
     margin: 10px;
 }
 
-.header .block .content .dates h3 {
-    margin: 5px 0 5px 0;
+.aniversary .content .text .textImage {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    width: 100%;
 }
-.header .block .content .dates h4 {
-    margin: 5px 0;
+
+.aniversary .content .text .textImage h1 {
+    font-size: 50px;
 }
-.header .image {
+
+.aniversary .content .text .textImage img {
+    width: 130px;
+    margin: 50px 10px 0 10px;
+}
+
+.aniversary .content .text .miniText {
+    position: absolute;
+    margin-top: 80px;
+}
+.aniversary .image {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -112,36 +112,36 @@
     padding: 0 20px;
 }
 
-.header .image img {
+.aniversary .image img {
     margin-top: 40px;
     object-fit: cover;
 }
 
 @media(max-width: 900px) {
-    .header .block .content .buttons {
+    .aniversary .content .buttons {
         flex-direction: column;
     }
 
-    .header .block .content .buttons .btn-whatsapp {
+    .aniversary .content .buttons .btn-whatsapp {
         margin: 5px;
     }
 
-    .header .block .content .buttons .btn-loja {
+    .aniversary .content .buttons .btn-loja {
         margin: 5px;
     }
 
 @media(max-width: 600px) {
 
-    .header .block .content {
+    .aniversary .content {
         width: 90%;
         padding: 0 10px;
     }
     
-    .header .image {
+    .aniversary .image {
         display: none;
     }
 
-    .header .block .content .buttons {
+    .aniversary .content .buttons {
         display: flex;
         align-items: center;
         justify-content: center;
@@ -150,24 +150,24 @@
         margin-top: 20px;
         text-decoration: none;
     }
-    .header .block .content .buttons a {
+    .aniversary .content .buttons a {
         text-decoration: none;
     }
 
-    .header .block .content .buttons .btn-whatsapp {
+    .aniversary .content .buttons .btn-whatsapp {
         margin: 5px;
     }
-    .header .block .content .buttons .btn-whatsapp a{
+    .aniversary .content .buttons .btn-whatsapp a{
         text-decoration: none;
     }
-    .header .block .content .buttons .btn-loja {
+    .aniversary .content .buttons .btn-loja {
         margin: 5px;
     }
-    .header .block .content .buttons .btn-loja a{
+    .aniversary .content .buttons .btn-loja a{
         text-decoration: none;
     }
 
-        .header{
+        .aniversary{
             border-radius: 0 0 100px 0;
         }
     }

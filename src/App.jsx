@@ -1,19 +1,15 @@
-import { Courses } from './components/Courses/Courses';
-import { Header } from './components/Header/Header';
-import { Company } from './components/Company/Company';
 import './Global.css';
-import { Depoiment } from './components/Depoiment/Depoiment';
-import { Footer } from './components/Footer/Footer';
+import { BrowserRouter } from 'react-router-dom';
+import { Router } from './routes/Router';
+import { ToastContainer } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 function App() {
   return (
-    <div >
-    <Header />
-    <Courses />
-    <Company />
-    <Depoiment />
-    <Footer />
-    </div>
+    <BrowserRouter>
+    <ToastContainer autoClose={3000} theme="colored" /> 
+    <Router />
+    </BrowserRouter>
   );
 }
 

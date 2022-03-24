@@ -15,7 +15,7 @@ function Footer() {
                    <p> &#169; CPA Educação - Todos os direitos reservados {date}</p>
                         </div>
                         <div className="devs">
-                            <p>Feito por: <a href="https://www.codingit.com.br/" target="_blank">Coding.It</a> & <a href="http://likemkdigital.com.br/" target="_blank">Like Marketing Digital</a></p>
+                            <p>Feito por: <a href="https://www.codingit.com.br/" target="_blank" rel="noreferrer">Coding.It</a> & <a href="http://likemkdigital.com.br/" target="_blank" rel="noreferrer">Like Marketing Digital</a></p>
                         </div>
                 </div>
         </div>

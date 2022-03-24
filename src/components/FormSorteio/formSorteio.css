@@ -1,0 +1,154 @@
+.formSorteio {
+    width: 90%;
+    background-image: url(../../assets/image/background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: #fff;
+    padding: 20px 100px;
+    border-radius: 50px 50px 50px 50px;
+    margin: 0 5%;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.formSorteio h1 {
+margin-bottom: 10px;
+text-align: center;
+}
+
+.formSorteio form {
+    width: 120%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.formSorteio form input {
+    width: 70%;
+    border: none;
+    border-radius: 8px;
+    color: blueviolet;
+    padding: 10px 20px;
+    margin: 3px 0;
+    
+}
+
+
+.formSorteio form textarea {
+    width: 70%;
+    border: none;
+    border-radius: 8px;
+    color: blueviolet;
+    padding: 10px 20px;
+    margin: 3px 0;
+    font-family: 'Lato', sans-serif;
+    resize: none;
+}
+.formSorteio form select {
+    width: 70%;
+    border: none;
+    border-radius: 8px;
+    color: blueviolet;
+    padding: 10px 20px;
+    margin: 3px 0;
+}
+
+.formSorteio form button {
+    width: 70%;
+    border: none;
+    border-radius: 8px;
+    color: #fff;
+    background-color: #076F73;
+    padding: 10px 20px;
+    margin: 20px 0;
+    cursor: pointer;
+}
+.formSorteio form button:hover {
+
+    background-color: #b36cfa;;
+}
+
+
+@media(max-width: 850px) {
+
+    .formSorteio form input {
+        width: 90%;
+    }
+    
+    .formSorteio form textarea {
+        width: 90%;
+    }
+    .formSorteio form select {
+        width: 90%;
+
+    }
+    
+    .formSorteio form button {
+        width: 90%;
+    }
+
+    @media(max-width: 550px) {
+
+        .formSorteio h1 {
+            font-size: 26px;
+            }
+
+        .formSorteio form input {
+            width: 90%;
+        }
+        
+        .formSorteio form textarea {
+            width: 90%;
+        }
+        .formSorteio form select {
+            width: 90%;
+    
+        }
+        
+        .formSorteio form button {
+            width: 90%;
+        }
+
+        .formSorteio form {
+            width: 170%;
+        }
+
+
+
+        @media(max-width: 450px) {
+            .formSorteio h1 {
+                font-size: 20px;
+                }
+
+            .formSorteio form input {
+                width: 90%;
+            }
+            
+            .formSorteio form textarea {
+                width: 90%;
+            }
+            .formSorteio form select {
+                width: 90%;
+        
+            }
+            
+            .formSorteio form button {
+                width: 90%;
+            }
+    
+            .formSorteio form {
+                width: 220%;
+            }
+        }
+    }
+    
+}
+
+

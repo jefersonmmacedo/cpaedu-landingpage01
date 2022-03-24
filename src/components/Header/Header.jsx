@@ -1,21 +1,31 @@
 import './header.css';
 import logo from '../../assets/image/logo-bc.png';
 import Aluno from '../../assets/image/Aluno.png';
+import { Aniversary } from '../Aniversary/Aniversary';
 
 function Header() {
     return (
         <div className="header">
+            <Aniversary />
+            <div className="block">
             <div className="content">
-                <img src={logo} alt="Logo" />
-                <h2>Formando Profissionais desde 2012</h2>
-                    <h4>Com mais de 3.000 alunos formados</h4>
-                <div className="buttons">
-                    <a className='btn-whatsapp' href="https://wa.me/5522999942800?text=Olá. Gostaria de saber mais detalhes sobre seus cursos e formações" target="_blank">Fale conosco</a>
-                    <a className='btn-loja' href="https://ead.cpaedu.com.br/loja_virtual/index.php" target="_blank">Loja virtual</a>
-                </div>
+                <h1>Inscreva-se e ganhe prêmios</h1>
+                    <h2><i>Sorteio de 100 cursos gratuitos e <br /> bolsas com até 100% de desconto</i></h2>
+                    <h4>De 21/03/2022 à 11/04/2022</h4>
+
+                    <div className="dates">
+                    <h3>Data dos sorteios</h3>
+                    <h4>1º - 21/03/2022 à 19h | Ao vivo</h4>
+                    <h4>2º - 28/03/2022 à 19h | Ao vivo</h4>
+                    <h4>3º - 04/04/2022 à 19h | Ao vivo</h4>
+                    <h4>4º - 11/04/2022 à 19h | Ao vivo</h4>
+
+                    </div>
+               
                 </div>
             <div className="image">
                 <img src={Aluno} alt="Aluno" />
+                </div>
                 </div>
         </div>
     )

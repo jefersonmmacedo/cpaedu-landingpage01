@@ -15,8 +15,8 @@ function ContactForm() {
                 <p><b>Whatsapp:</b> (22) 99994-2800</p>
             </div>
             <div className="icons">
-                <p> <a href="https://www.facebook.com/cpaeducacao" target="_blank"><FiFacebook /></a></p>
-                <p><a href="https://www.instagram.com/cpaeducacao/" target="_blank"><FiInstagram /></a></p>
+                <p> <a href="https://www.facebook.com/cpaeducacao" target="_blank" rel="noreferrer"><FiFacebook /></a></p>
+                <p><a href="https://www.instagram.com/cpaeducacao/" target="_blank" rel="noreferrer"><FiInstagram /></a></p>
             </div>
         </div>
     )

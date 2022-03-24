@@ -1,0 +1,81 @@
+.details {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 20px 50px;
+    width: 100%;
+    color: #371d64;
+}
+
+.details h2 {
+    margin: 10px 0;
+}
+
+.details .listCourses {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: row;
+    width: 100%;
+}
+
+.details .listCourses .block2 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+.details .listCourses .iten {
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10px;
+    margin: 5px;
+    width: 500px;
+    background-color: #7358a1;
+    color: #fff;
+    text-align: center;
+}
+
+.details .listCourses .iten h5 {
+    margin: 8px 0;
+    font-weight: 900;
+}
+.details .listCourses .iten button {
+        background-color: #8c73b8;
+        border: 1px solid #fff;;
+        border-radius: 10px;
+        margin-top: 5px;
+        padding: 5px 20px;
+        color: #fff;
+        cursor: pointer;
+}
+
+@media(max-width: 900px) {
+    .details .listCourses {
+        flex-direction: column;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    @media(max-width: 550px) {
+        .details .listCourses .iten {
+            width: 400px;
+        }
+
+        @media(max-width: 450px) {
+            .details .listCourses .iten {
+                width: 320px;
+            }
+        
+        }
+    
+    }
+    
+}
