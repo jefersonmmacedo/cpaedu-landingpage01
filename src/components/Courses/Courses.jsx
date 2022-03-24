@@ -26,7 +26,7 @@ bolsas com até 100% de desconto</h4>
                         <p>Realize seu sonho de aprender a tocar um instrumento musical, cantar com técnica vocal e até mesmo reger um coro.</p>
                             </div>
                         {/* <a href="https://wa.me/5522999942800?text=Olá. Gostaria de saber mais detalhes sobre os cursos de Música" target="_blank" rel="noreferrer">Participar do sorteio</a> */}
-                        <a href="/sorteio/Música" rel="noreferrer">Participar do sorteio</a>
+                        <a href="/sorteio" rel="noreferrer">Participar do sorteio</a>
                       </div>
                     <div className="course2">
                         <div className="text">
@@ -36,7 +36,7 @@ bolsas com até 100% de desconto</h4>
                         <h3>Cursos de aperfeiçoamento profissional</h3>
                         <p>Cursos de aperfeiçoamento profissional. Formato tradicional com formação de turmas, teoria e prática com professor e estágio supervisionado. </p>
                             </div>
-                        <a href="/sorteio/Cursos de aperfeiçoamento profissional" rel="noreferrer">Participar do sorteio</a>
+                        <a href="/sorteio" rel="noreferrer">Participar do sorteio</a>
                         </div>
                     <div className="course3">
                         <div className="text">
@@ -46,7 +46,7 @@ bolsas com até 100% de desconto</h4>
                         <h3>Ensino Médio - EJA EAD</h3>
                         <p>A Educação de Jovens e Adultos (EJA) é destinada a quem tem 18 anos ou mais e não conseguiu concluir os estudos na idade própria, nos cursos de Ensino Fundamental e Médio.</p>
                             </div>
-                        <a href="/sorteio/Ensino Médio - EJA EAD" rel="noreferrer">Participar do sorteio</a>
+                        <a href="/sorteio" rel="noreferrer">Participar do sorteio</a>
                         </div>
                     {/* <div className="course4">
                         <div className="text">

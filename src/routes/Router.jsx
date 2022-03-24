@@ -9,7 +9,7 @@ function Router () {
     
                 <Routes>
                 <Route path="/" element={<Home />}/>
-                <Route path="/sorteio/:course" element={ <DrawDetails />} />
+                <Route path="/sorteio" element={ <DrawDetails />} />
                 <Route path="/promocoes" element={ <Promotion />} />
                 <Route path="/sorteador" element={ <DrawDetails />} />       
                 <Route path="/inscritos" element={ <DrawDetails />} />             
