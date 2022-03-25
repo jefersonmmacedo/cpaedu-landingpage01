@@ -6,7 +6,7 @@
     flex-direction: row;
     width: 100%;
     height: 400px;
-    background-image: url(../../assets/image/background.png);
+    background-image: url(../../assets/image/background3.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -33,7 +33,7 @@
 
 .headerPromotion .text img {
     margin-top: 20px;
-    width: 50%;
+    width: 250px;
 }
 
 .headerPromotion .image {
@@ -48,3 +48,28 @@
     width: 550px;
     margin-top: 33px;
 }
+
+
+@media(max-width: 800px) {
+    .headerPromotion .image img{
+        display: none;
+    }
+
+    .headerPromotion .text {
+        width: 200%;
+
+        margin-left: 25%;
+    }
+
+    @media(max-width: 800px) {
+         .headerPromotion .text {
+            width: 200%;
+    
+            margin-left: 15%;
+        }
+        
+        
+        }
+    
+    
+    }

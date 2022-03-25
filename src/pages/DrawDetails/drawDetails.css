@@ -126,6 +126,11 @@
         justify-content: center;
     }
 
+    .details .youtube {
+        flex-direction: column;
+        width: 70%;
+    }
+
     @media(max-width: 830px) {
         .details .sort {
             width: 500px;
@@ -134,6 +139,11 @@
     @media(max-width: 550px) {
         .details .listCourses .iten {
             width: 400px;
+        }
+
+        .details .youtube {
+            flex-direction: column;
+            width: 100%;
         }
 
         .details .sort {

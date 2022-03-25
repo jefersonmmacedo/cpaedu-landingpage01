@@ -83,7 +83,7 @@ bolsas com até 100% de desconto</h4>
                             </div>
                           <a href="https://wa.me/5522999942800?text=Olá. Gostaria de saber mais detalhes sobre os descontos nos cursos de Graduação EAD" target="_blank" rel="noreferrer">Garantir meu desconto</a>
                           <div className="view">
-                          <a href="#" target="_blank" rel="noreferrer">Ver cursos</a>
+                          <a href="/promocoes"  rel="noreferrer">Ver cursos</a>
                           </div>
                         </div>
                     <div className="course2">
@@ -96,7 +96,7 @@ bolsas com até 100% de desconto</h4>
                             </div>
                           <a href="https://wa.me/5522999942800?text=Olá. Gostaria de saber mais detalhes sobre os descontos nos cursos de Pós-graduação EAD" target="_blank" rel="noreferrer">Garantir meu desconto</a>
                           <div className="view">
-                          <a href="#" target="_blank" rel="noreferrer">Ver cursos</a>
+                          <a href="/promocoes"  rel="noreferrer">Ver cursos</a>
                           </div>
                         </div>
                     <div className="course3">
@@ -109,7 +109,7 @@ bolsas com até 100% de desconto</h4>
                             </div>
                           <a href="https://wa.me/5522999942800?text=Olá. Gostaria de saber mais detalhes sobre os descontos nos cursos de 2º Curso Superior EAD" target="_blank" rel="noreferrer">Garantir meu desconto</a>
                           <div className="view">
-                          <a href="#" target="_blank" rel="noreferrer">Ver cursos</a>
+                          <a href="/promocoes" rel="noreferrer">Ver cursos</a>
                           </div>
                         </div>
                     {/* <div className="course4">
