@@ -1,0 +1,154 @@
+.formSorteioTeste {
+    width: 90%;
+    background-image: url(../../assets/image/background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: #fff;
+    padding: 20px 100px;
+    border-radius: 50px 50px 50px 50px;
+    margin: 0 5%;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.formSorteioTeste h1 {
+margin-bottom: 10px;
+text-align: center;
+}
+
+.formSorteioTeste form {
+    width: 120%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.formSorteioTeste form input {
+    width: 70%;
+    border: none;
+    border-radius: 8px;
+    color: blueviolet;
+    padding: 10px 20px;
+    margin: 3px 0;
+    
+}
+
+
+.formSorteioTeste form textarea {
+    width: 70%;
+    border: none;
+    border-radius: 8px;
+    color: blueviolet;
+    padding: 10px 20px;
+    margin: 3px 0;
+    font-family: 'Lato', sans-serif;
+    resize: none;
+}
+.formSorteioTeste form select {
+    width: 70%;
+    border: none;
+    border-radius: 8px;
+    color: blueviolet;
+    padding: 10px 20px;
+    margin: 3px 0;
+}
+
+.formSorteioTeste form button {
+    width: 70%;
+    border: none;
+    border-radius: 8px;
+    color: #fff;
+    background-color: #076F73;
+    padding: 10px 20px;
+    margin: 20px 0;
+    cursor: pointer;
+}
+.formSorteioTeste form button:hover {
+
+    background-color: #b36cfa;;
+}
+
+
+@media(max-width: 850px) {
+
+    .formSorteioTeste form input {
+        width: 90%;
+    }
+    
+    .formSorteioTeste form textarea {
+        width: 90%;
+    }
+    .formSorteioTeste form select {
+        width: 90%;
+
+    }
+    
+    .formSorteioTeste form button {
+        width: 90%;
+    }
+
+    @media(max-width: 550px) {
+
+        .formSorteioTeste h1 {
+            font-size: 26px;
+            }
+
+        .formSorteioTeste form input {
+            width: 90%;
+        }
+        
+        .formSorteioTeste form textarea {
+            width: 90%;
+        }
+        .formSorteioTeste form select {
+            width: 90%;
+    
+        }
+        
+        .formSorteioTeste form button {
+            width: 90%;
+        }
+
+        .formSorteioTeste form {
+            width: 170%;
+        }
+
+
+
+        @media(max-width: 450px) {
+            .formSorteioTeste h1 {
+                font-size: 20px;
+                }
+
+            .formSorteioTeste form input {
+                width: 90%;
+            }
+            
+            .formSorteioTeste form textarea {
+                width: 90%;
+            }
+            .formSorteioTeste form select {
+                width: 90%;
+        
+            }
+            
+            .formSorteioTeste form button {
+                width: 90%;
+            }
+    
+            .formSorteioTeste form {
+                width: 220%;
+            }
+        }
+    }
+    
+}
+
+
