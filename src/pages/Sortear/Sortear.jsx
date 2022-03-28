@@ -14,7 +14,7 @@ function Sortear() {
 
 useEffect(() => {
     async function loadCondadatos() {
-        const querySnapshot = await getDocs(collection(db, "users"));  
+        const querySnapshot = await getDocs(collection(db, "candidatos"));  
         let list = [];
         querySnapshot.forEach((doc) => {
             console.log(`${doc.id} => ${doc.data()}`);
@@ -125,6 +125,9 @@ function handleQtd(e) {
                 <option value="10">10</option>
             </select>
 
+                {cadidatesFilter.length === 0 ? "" :
+                <h5>{cadidatesFilter.length} inscritos para {courses}</h5>
+                 }
             <button onClick={sortearNomes}>Sortear</button>
            
             <div className="cadidato">
