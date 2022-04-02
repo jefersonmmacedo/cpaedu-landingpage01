@@ -1,5 +1,4 @@
 import './header.css';
-import logo from '../../assets/image/logo-bc.png';
 import Aluno from '../../assets/image/Aluno.png';
 import { Aniversary } from '../Aniversary/Aniversary';
 
@@ -15,10 +14,10 @@ function Header() {
 
                     <div className="dates">
                     <h3>Data dos sorteios</h3>
-                    <h4>1º - 21/03/2022 à 19h<br /> <a href="https://www.youtube.com/watch?v=0eSz0Ok1iEU&ab_channel=CPAEduca%C3%A7%C3%A3o" target="_blank">Ver último sorteio</a> </h4>
-                    <h4>2º - 28/03/2022 à 19h <br /> <a href="https://www.youtube.com/channel/UCqTlej5EZmnmet98RQwYlIw" target="_blank">Ao vivo no Youtube</a> </h4>
-                    <h4>3º - 04/04/2022 à 19h <br /> <a href="https://www.youtube.com/channel/UCqTlej5EZmnmet98RQwYlIw" target="_blank">Ao vivo no Youtube</a> </h4>
-                    <h4>4º - 11/04/2022 à 19h <br /> <a href="https://www.youtube.com/channel/UCqTlej5EZmnmet98RQwYlIw" target="_blank">Ao vivo no Youtube</a> </h4>
+                    <h4>1º - 21/03/2022 à 19h<br /> <a href="https://www.youtube.com/watch?v=0eSz0Ok1iEU&ab_channel=CPAEduca%C3%A7%C3%A3o" target="_blank" without rel="noreferrer">Ver último sorteio</a> </h4>
+                    <h4>2º - 28/03/2022 à 19h <br /> <a href="https://www.youtube.com/channel/UCqTlej5EZmnmet98RQwYlIw" target="_blank" without rel="noreferrer">Ao vivo no Youtube</a> </h4>
+                    <h4>3º - 04/04/2022 à 19h <br /> <a href="https://www.youtube.com/channel/UCqTlej5EZmnmet98RQwYlIw" target="_blank" without rel="noreferrer">Ao vivo no Youtube</a> </h4>
+                    <h4>4º - 11/04/2022 à 19h <br /> <a href="https://www.youtube.com/channel/UCqTlej5EZmnmet98RQwYlIw" target="_blank" without rel="noreferrer">Ao vivo no Youtube</a> </h4>
 
                     </div>
                

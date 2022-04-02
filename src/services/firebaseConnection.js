@@ -12,4 +12,4 @@ let firebaseConfig = {
   
 // Use this to initialize the firebase App
 const app = initializeApp(firebaseConfig);
-export default getFirestore();
+export default getFirestore(app);

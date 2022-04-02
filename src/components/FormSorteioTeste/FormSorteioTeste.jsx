@@ -1,6 +1,5 @@
 import './formSorteioTeste.css'
 import {useState} from 'react'
-import { toast } from 'react-toastify';
 import { collection, addDoc } from "firebase/firestore";
 import db from '../../services/firebaseConnection';
 

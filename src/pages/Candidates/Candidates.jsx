@@ -33,7 +33,7 @@ useEffect(() => {
     }
 
     loadCondadatos()
-}, [])
+}, [candidatos])
 
 console.log(candidatos)
 

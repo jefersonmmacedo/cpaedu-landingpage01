@@ -160,22 +160,3 @@ export {DrawDetails}
 
 
 
-{/* <h3>Cursos Profissionalizantes</h3> 
-AEE (Atendimento Educacional Especializado)
-Auxiliar Administrativo
-Auxiliar de Farmácia
-Barbeiro
-Conserto de Celular e Tablet
-Corte, Costura e Modelagem
-Crochê
-Cuidador de Idosos
-Desenho Artístico
-Design Gráfico
-Eletricista Instalador Predial
-Fotografia
-Informática
-Libras
-Manicure e Pedicure
-PAED (Profissional de Apoio ao Estudante com Deficiência)
-Práticas Pedagógicas na Educação Infantil
-Recursos Tecnológicos para a Prática Pedagógica */}

@@ -2,9 +2,7 @@ import "./courses.css"
 import noteImg from '../../assets/image/1.png'
 import note2Img from '../../assets/image/2.png'
 import musicImg from '../../assets/image/3.png'
-import smartPhoneImg from '../../assets/image/4.png'
 import note3Img from '../../assets/image/5.png'
-import noteMessage from '../../assets/image/6.png'
 import tabletImg from '../../assets/image/7.png'
 import lousaImg  from '../../assets/image/8.png'
 

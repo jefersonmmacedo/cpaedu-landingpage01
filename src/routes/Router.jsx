@@ -1,4 +1,4 @@
-import {Route, Routes, Navigate} from 'react-router-dom';
+import {Route, Routes} from 'react-router-dom';
 import { Candidates } from '../pages/Candidates/Candidates';
 import { Draw } from '../pages/Draw/Draw';
 import { DrawDetails } from '../pages/DrawDetails/DrawDetails';

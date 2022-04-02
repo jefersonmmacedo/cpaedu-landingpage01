@@ -159,7 +159,9 @@ function Promotion() {
 
             <div className="youtube">
            <h3>Entre com contato com a gente! </h3>
-           <h3> <a href="https://www.youtube.com/channel/UCqTlej5EZmnmet98RQwYlIw"> Falar com o atencimento <IoLogoWhatsapp /></a> </h3>
+           <h3>
+           <a href="https://wa.me/5522999942800?text=Olá. Gostaria de saber mais detalhes sobre os descontos nos cursos." target="_blank" rel="noreferrer">Falar com o atendimento <IoLogoWhatsapp /></a>
+           </h3>
             </div>
 
             </div>

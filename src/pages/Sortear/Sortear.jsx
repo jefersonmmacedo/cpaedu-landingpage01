@@ -10,7 +10,6 @@ function Sortear() {
     const [sorteador, setSorteador] = useState([])
     const [courses, setCourses] = useState([])
     const [qtd, setQtd] = useState([])
-    const [type, setType] = useState([])
 
 useEffect(() => {
     async function loadCondadatos() {
