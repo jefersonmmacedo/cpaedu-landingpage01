@@ -11,6 +11,7 @@ function Candidates() {
 useEffect(() => {
     async function loadCondadatos() {
         const querySnapshot = await getDocs(collection(db, "candidatos"));  
+        const list = []
         querySnapshot.forEach((doc) => {
             console.log(`${doc.id} => ${doc.data()}`);
           const data = {
@@ -27,9 +28,9 @@ useEffect(() => {
             }
 
             console.log(data)
-            setCandidatos([...candidatos, data])
+            list.push(data)
           });
-
+          setCandidatos(list)
     }
 
     loadCondadatos()
